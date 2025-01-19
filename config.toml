@@ -11,22 +11,23 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "ReVanced eXtended"
-build-mode = "module"
+build-mode = "both"
 included-patches = "'Return YouTube Username'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom double tap length' 'GmsCore support' 'Theme'"
+excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom double tap length' 'Theme'"
+version = "auto"
+exclusive-patches = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+module-prop-name = "yt-rvx"
 
 [Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "ReVanced eXtended"
-build-mode = "module"
+arch = "both"
+build-mode = "both"
+app-name = "YouTube-Music"
 included-patches = "'Disable music video in album' 'Return YouTube Username' 'Spoof client'"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Dark theme' 'GmsCore support'"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Dark theme'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+module-prop-name = "ytm-rvx"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
