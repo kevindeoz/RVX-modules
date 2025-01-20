@@ -1,6 +1,6 @@
 {
-  "version": "v7.13.0.716414472 (patches: 5.8.1)",
-  "versionCode": 1,
-  "zipUrl": "https://github.com/kevindeoz/RVX-modules/releases/download/1/googlephotos-revanced-magisk-v7.13.0.716414472-arm-v7a.zip",
+  "version": "v7.13.0.716414472 (patches: 5.9.0)",
+  "versionCode": 2,
+  "zipUrl": "https://github.com/kevindeoz/RVX-modules/releases/download/2/googlephotos-revanced-magisk-v7.13.0.716414472-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/kevindeoz/RVX-modules/update/build.md"
 }
